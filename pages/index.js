@@ -3,7 +3,7 @@ import Example from '../components/Example'
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <>
       <Head>
         <title>Imeila Website</title>
         <link rel="icon" href="/favicon.ico" />
@@ -12,7 +12,7 @@ export default function Home() {
         <Example />
 
 
-      <footer className="flex items-center justify-center w-full h-24 border-t">
+      {/* <footer className="flex items-center justify-center w-full h-24 border-t">
         <a
           className="flex items-center justify-center"
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
@@ -22,7 +22,7 @@ export default function Home() {
           Powered by{' '}
           Donkey Kong Productions
         </a>
-      </footer>
-    </div>
+      </footer> */}
+    </>
   )
 }
