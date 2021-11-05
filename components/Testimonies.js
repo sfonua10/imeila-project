@@ -49,7 +49,7 @@ export default function Testimonies() {
           >
             {people.map((person) => (
               <li key={person.name} className="flex justify-center">
-                <div className="space-y-6 max-w-xs-0">
+                <div className="space-y-6 max-w-xs-0 xl:max-w-xs">
                   <img
                     className="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56"
                     src={person.imageUrl}
