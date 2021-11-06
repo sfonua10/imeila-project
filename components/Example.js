@@ -125,12 +125,13 @@ export default function Example() {
                 </span>
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                TalentHerder works with high-growth companies to identify and
-                hire top-quality talent across tech and non-tech functions.
-                We've helped our clients scale their teams quickly, efficiently
-                and cost effectively and have developed and successfully
-                implemented recruiting processes that optimize for remote
-                working conditions.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci
+                ac auctor augue mauris augue neque gravida. Platea dictumst
+                vestibulum rhoncus est pellentesque. Mattis enim ut tellus
+                elementum sagittis. Tellus elementum sagittis vitae et. Est
+                placerat in egestas erat. Sed egestas egestas fringilla
+                phasellus faucibus. 
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">

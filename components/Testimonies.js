@@ -1,33 +1,33 @@
 export default function Testimonies() {
   const people = [
     {
-      name: "Ryan Gladgow",
+      name: "John Doe",
       role: "Founder & CEO",
-      company: "UserLeap",
+      company: "FistPound",
       testimony:
-        "Building a diverse and inclusive team is a top priority for us. TalentHerder helped us scale hiring efforts quickly while keeping diversity top of mind. They are efficient and cost effective. My team was talking to top candidates for our open roles in less than 3 days.",
+        "Nisl condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Interdum varius sit amet mattis vulputate enim.",
       imageUrl:
         "https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
       twitterUrl: "#",
       linkedinUrl: "#",
     },
     {
-      name: "Ryan Gladgow",
+      name: "Jane Ryan",
       role: "Founder & CEO",
-      company: "UserLeap",
+      company: "GlassBow",
       testimony:
-        "Building a diverse and inclusive team is a top priority for us. TalentHerder helped us scale hiring efforts quickly while keeping diversity top of mind. They are efficient and cost effective. My team was talking to top candidates for our open roles in less than 3 days.",
+      "Nisl condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Interdum varius sit amet mattis vulputate enim.",
       imageUrl:
         "https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
       twitterUrl: "#",
       linkedinUrl: "#",
     },
     {
-      name: "Ryan Gladgow",
+      name: "Dennis Sellis",
       role: "Founder & CEO",
-      company: "UserLeap",
+      company: "Soccer",
       testimony:
-        "Building a diverse and inclusive team is a top priority for us. TalentHerder helped us scale hiring efforts quickly while keeping diversity top of mind. They are efficient and cost effective. My team was talking to top candidates for our open roles in less than 3 days.",
+      "Nisl condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Interdum varius sit amet mattis vulputate enim.",
       imageUrl:
         "https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
       twitterUrl: "#",

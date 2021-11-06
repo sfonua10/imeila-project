@@ -7,16 +7,19 @@ const Mission = () => {
         </h2>
         <div className="mt-6 text-gray-500 space-y-6">
           <p className="text-lg">
-            We created TalentHerder to bridge the gap between in-house and
-            external recruiting. We specialize in partnering with early stage,
-            high growth companies looking to establish an efficient recruiting
-            process that reflects their company culture and values.
+            Et tortor consequat id porta nibh. Eu feugiat pretium nibh ipsum
+            consequat nisl vel pretium lectus. Faucibus interdum posuere lorem
+            ipsum dolor sit amet consectetur. Maecenas ultricies mi eget mauris.
+            Et malesuada fames ac turpis egestas sed tempus. Sem nulla pharetra
+            diam sit amet.
           </p>
           <p className="text-base leading-7">
-            TalentHerder's team is composed of experienced recruiters and
-            recruiting coordinators who integrate directly with hiring teams and
-            have the institutional knowledge and expertise to provide you with
-            substantive feedback on your current recruiting process.
+            Nisl condimentum id venenatis a condimentum vitae sapien
+            pellentesque habitant. Interdum varius sit amet mattis vulputate
+            enim. Feugiat in fermentum posuere urna. Malesuada fames ac turpis
+            egestas integer eget. Gravida rutrum quisque non tellus orci ac
+            auctor augue mauris. Fermentum odio eu feugiat pretium nibh ipsum
+            consequat nisl vel. Non sodales neque sodales ut etiam sit.
           </p>
         </div>
       </div>
