@@ -3,7 +3,7 @@ const Mission = () => {
     <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
       <div className="pt-12 sm:pt-16 lg:pt-20">
         <h2 className="text-3xl text-gray-900 font-extrabold tracking-tight sm:text-4xl text-center">
-          TalentHerder's Mission
+          Imeila's Mission
         </h2>
         <div className="mt-6 text-gray-500 space-y-6">
           <p className="text-lg">
