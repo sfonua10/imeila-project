@@ -59,7 +59,7 @@ export default function Testimonies() {
                     <div className="text-lg leading-6 space-y-1">
                       <h3 className="font-medium">{person.name}</h3>
                       <p>{person.role}</p>
-                      <p className="text-indigo-600">{person.company}</p>
+                      <p className="text-yellow-600">{person.company}</p>
                       <p>{person.testimony}</p>
                     </div>
                     {/* <ul role="list" className="flex justify-center space-x-5">

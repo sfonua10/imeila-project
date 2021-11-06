@@ -41,7 +41,7 @@ export default function Example() {
                       />
                     </a>
                     <div className="-mr-2 flex items-center md:hidden">
-                      <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-500">
+                      <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-yellow-500">
                         <span className="sr-only">Open main menu</span>
                         <MenuIcon className="h-6 w-6" aria-hidden="true" />
                       </Popover.Button>
@@ -58,7 +58,7 @@ export default function Example() {
                       {item.name}
                     </a>
                   ))}
-                  {/* <a href="#" className="font-medium text-green-600 hover:text-green-500">
+                  {/* <a href="#" className="font-medium text-yellow-600 hover:text-yellow-500">
                     Log in
                   </a> */}
                 </div>
@@ -83,12 +83,12 @@ export default function Example() {
                     <div>
                       <img
                         className="h-8 w-auto"
-                        src="https://tailwindui.com/img/logos/workflow-mark-green-600.svg"
+                        src="https://tailwindui.com/img/logos/workflow-mark-yellow-600.svg"
                         alt=""
                       />
                     </div>
                     <div className="-mr-2">
-                      <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-500">
+                      <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-yellow-500">
                         <span className="sr-only">Close main menu</span>
                         <XIcon className="h-6 w-6" aria-hidden="true" />
                       </Popover.Button>
@@ -107,7 +107,7 @@ export default function Example() {
                   </div>
                   {/* <a
                     href="#"
-                    className="block w-full px-5 py-3 text-center font-medium text-green-600 bg-gray-50 hover:bg-gray-100"
+                    className="block w-full px-5 py-3 text-center font-medium text-yellow-600 bg-gray-50 hover:bg-gray-100"
                   >
                     Log in
                   </a> */}
@@ -120,7 +120,7 @@ export default function Example() {
             <div className="sm:text-center lg:text-left">
               <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl text-center">
                 <span>Hire</span>{" "}
-                <span className="block text-green-600 xl:inline">
+                <span className="block text-yellow-600 xl:inline">
                   Top Talent
                 </span>
               </h1>
@@ -137,7 +137,7 @@ export default function Example() {
                 <div className="rounded-md shadow">
                   <a
                     href="#"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700 md:py-4 md:text-lg md:px-10"
+                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yellow-600 hover:bg-yellow-700 md:py-4 md:text-lg md:px-10"
                   >
                     Get started
                   </a>
@@ -145,7 +145,7 @@ export default function Example() {
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
                     href="#"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-green-700 bg-green-100 hover:bg-green-200 md:py-4 md:text-lg md:px-10"
+                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-yellow-700 bg-yellow-100 hover:bg-yellow-200 md:py-4 md:text-lg md:px-10"
                   >
                     Live demo
                   </a>
