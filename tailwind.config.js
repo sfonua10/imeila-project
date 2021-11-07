@@ -6,6 +6,10 @@ module.exports = {
     extend: {
       maxWidth: {
         'xs-0': '11.25rem'
+      },
+      colors: {
+        'sourceable-orange': '#ee9900',
+        'sourceable-blue': '#1e90ff'
       }
     },
   },
@@ -14,3 +18,6 @@ module.exports = {
   },
   plugins: [],
 }
+
+//#ee9900
+//#1e90ff

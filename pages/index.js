@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Example from '../components/Example'
+import TrustedBrands2 from '../components/TrustedBrands2'
 import TrustedBrands from '../components/TrustedBrands'
 import Mission from '../components/Mission'
 import Services from '../components/Services'
