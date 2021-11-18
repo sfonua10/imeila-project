@@ -24,7 +24,7 @@ const features = [
 
 export default function Services() {
   return (
-    <div className="p-32 bg-white">
+    <div className="p-16 bg-white">
       <div className="max-w-xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
       <h2 className="text-3xl text-gray-900 font-extrabold tracking-tight sm:text-4xl text-center mb-8">
           What we offer:

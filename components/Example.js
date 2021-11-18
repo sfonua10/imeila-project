@@ -34,14 +34,9 @@ export default function Example() {
                 <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                   <div className="flex items-center justify-between w-full md:w-auto">
                     <a href="#">
-                      <span className="sr-only">Workflow</span>
-                      {/* <img
-                        className="h-8 w-auto sm:h-10"
-                        src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-                      /> */}
+                      <span className="sr-only">Sourceable</span>
                       {/* <svg
-                        width="35"
-                        height="32"
+                        className="h-8 w-auto sm:h-10"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
                       >
@@ -55,8 +50,7 @@ export default function Example() {
                         />
                       </svg> */}
                       <svg
-                        width="35"
-                        height="32"
+                        className="h-8 w-auto sm:h-10"
                         viewBox="0 0 426 429"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -114,7 +108,7 @@ export default function Example() {
                     <div>
                       <img
                         className="h-8 w-auto"
-                        src="https://tailwindui.com/img/logos/workflow-mark-yellow-600.svg"
+                        src="/blue-s-logo.png"
                         alt=""
                       />
                     </div>
@@ -150,9 +144,11 @@ export default function Example() {
           <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
               <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl text-center">
-                <span className="text-sourceable-blue">Lorem</span>{" "}
+                <span className="text-sourceable-orange">
+                  Recruit Tech Talent with
+                </span>{" "}
                 <span className="block text-sourceable-blue xl:inline">
-                  ipsum dolor
+                  Sourceable
                 </span>
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
