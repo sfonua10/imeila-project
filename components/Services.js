@@ -3,19 +3,19 @@ import { GlobeAltIcon, LightningBoltIcon, ScaleIcon } from '@heroicons/react/out
 
 const features = [
   {
-    name: 'Tech-Enabled Candidate Sourcing',
+    name: 'Empowered Tech Sourcing',
     description:
       '',
     icon: GlobeAltIcon,
   },
   {
-    name: 'Full-Cycle Recruiting Support',
+    name: 'Full-Cycle Recruiting Model',
     description:
       '',
     icon: ScaleIcon,
   },
   {
-    name: 'HR Strategy and Planning',
+    name: 'Tech Strategy and Planning',
     description:
       '',
     icon: LightningBoltIcon,
