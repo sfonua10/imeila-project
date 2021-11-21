@@ -3,7 +3,7 @@ import { GlobeAltIcon, LightningBoltIcon, ScaleIcon } from '@heroicons/react/out
 
 const features = [
   {
-    name: 'Empowered Tech Sourcing',
+    name: 'AI Candidate Sourcing',
     description:
       '',
     icon: GlobeAltIcon,
@@ -15,7 +15,7 @@ const features = [
     icon: ScaleIcon,
   },
   {
-    name: 'Tech Strategy and Planning',
+    name: '',
     description:
       '',
     icon: LightningBoltIcon,
@@ -34,7 +34,7 @@ export default function Services() {
           {features.map((feature) => (
             <div key={feature.name}>
               <dt>
-                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-yellow-500 text-white">
+                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-sourceable-blue text-white">
                   <feature.icon className="h-6 w-6" aria-hidden="true" />
                 </div>
                 <p className="mt-5 text-lg leading-6 font-medium text-gray-900">{feature.name}</p>

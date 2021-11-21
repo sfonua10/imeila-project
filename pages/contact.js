@@ -9,12 +9,37 @@ export default function Contact() {
     message: "",
   });
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    fetch('/api/contact', {
-        method: 'post',
-        body: JSON.stringify(info),
-      });
+  const handleSubmit = async (e) => {
+    console.log('working')
+    // e.preventDefault();
+        //     setInfo({
+        //   fullName: "",
+        //   email: "",
+        //   phone: "",
+        //   message: "",
+        // })
+    // try{
+
+    //   const res = await fetch('/api/contact', {
+    //     method: 'post',
+    //     headers: {
+    //       'Content-Type': 'application/json'
+    //     },
+    //     body: JSON.stringify(info),
+    //   });
+      
+    //   if(!res.ok) {
+    //     setInfo({
+    //       fullName: "",
+    //       email: "",
+    //       phone: "",
+    //       message: "",
+    //     })
+    //   }
+    // } catch(err) {
+    //   console.error(err)
+    // }
+
   };
 
   const handleInputChange = (e) => {
@@ -49,7 +74,7 @@ export default function Contact() {
                   <p>Springfield, OR 12345</p>
                 </dd>
               </div> */}
-                <div className="mt-6">
+                {/* <div className="mt-6">
                   <dt className="sr-only">Phone number</dt>
                   <dd className="flex">
                     <PhoneIcon
@@ -58,7 +83,7 @@ export default function Contact() {
                     />
                     <span className="ml-3">+1 (801) 615-3699</span>
                   </dd>
-                </div>
+                </div> */}
                 <div className="mt-3">
                   <dt className="sr-only">Email</dt>
                   <dd className="flex">
@@ -66,7 +91,7 @@ export default function Contact() {
                       className="flex-shrink-0 h-6 w-6 text-gray-400"
                       aria-hidden="true"
                     />
-                    <span className="ml-3">support@sourceable.com</span>
+                    <span className="ml-3">support@trysourceable.com</span>
                   </dd>
                 </div>
               </dl>
@@ -82,7 +107,7 @@ export default function Contact() {
           <div className="bg-white py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
             <div className="max-w-lg mx-auto lg:max-w-none">
               <form
-                action="#"
+                // action="#"
                 method="POST"
                 className="grid grid-cols-1 gap-y-6"
                 onSubmit={handleSubmit}
@@ -96,7 +121,7 @@ export default function Contact() {
                     name="fullName"
                     id="fullName"
                     autoComplete="name"
-                    className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
+                    className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-blue-500 focus:border-blue-500 border-gray-300 rounded-md"
                     placeholder="Full name"
                     onChange={handleInputChange}
                   />
@@ -110,7 +135,7 @@ export default function Contact() {
                     name="email"
                     type="email"
                     autoComplete="email"
-                    className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
+                    className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-blue-500 focus:border-blue-500 border-gray-300 rounded-md"
                     placeholder="Email"
                     onChange={handleInputChange}
                   />
@@ -124,7 +149,7 @@ export default function Contact() {
                     name="phone"
                     id="phone"
                     autoComplete="tel"
-                    className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
+                    className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-blue-500 focus:border-blue-500 border-gray-300 rounded-md"
                     placeholder="Phone"
                     onChange={handleInputChange}
                   />
@@ -137,7 +162,7 @@ export default function Contact() {
                     id="message"
                     name="message"
                     rows={4}
-                    className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md"
+                    className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-blue-500 focus:border-blue-500 border border-gray-300 rounded-md"
                     placeholder="Message"
                     defaultValue={""}
                     onChange={handleInputChange}
@@ -146,7 +171,7 @@ export default function Contact() {
                 <div>
                   <button
                     type="submit"
-                    className="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-sourceable-orange hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                    className="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-sourceable-blue hover:bg-sourceable-blue focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                   >
                     Submit
                   </button>

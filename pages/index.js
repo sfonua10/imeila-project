@@ -1,11 +1,11 @@
 import Head from 'next/head'
-import Home from '../components/Home'
+import Hero from '../components/Hero'
 import TrustedBrands2 from '../components/TrustedBrands2'
 import TrustedBrands from '../components/TrustedBrands'
 import Mission from '../components/Mission'
-import Services from '../components/Services'
+import Steps from '../components/Steps'
 import Testimonies from '../components/Testimonies';
-import Footer from '../components/Footer';
+import CTA from '../components/CTA';
 
 export default function Main() {
   return (
@@ -16,10 +16,12 @@ export default function Main() {
         <link rel="icon" href="/favicon-32x32.png" sizes="32x32"/>
       </Head>
 
-        <Home />
-        <TrustedBrands />
+        <Hero />
+        {/* <LogoClouds /> */}
+        {/* <TrustedBrands /> */}
         <Mission />
-        <Services />
+        <CTA />
+        {/* <Steps /> */}
         {/* <Testimonies /> */}
         {/* <Footer /> */}
     </>

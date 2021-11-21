@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   mode: 'jit',
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
@@ -10,6 +12,10 @@ module.exports = {
       colors: {
         'sourceable-orange': '#ee9900',
         'sourceable-blue': '#1e90ff'
+      },
+      screen: {
+        'xs': '375px',
+        ...defaultTheme.screens,
       }
     },
   },
