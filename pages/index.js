@@ -1,11 +1,11 @@
 import Head from 'next/head'
 import Hero from '../components/Hero'
-import TrustedBrands2 from '../components/TrustedBrands2'
-import TrustedBrands from '../components/TrustedBrands'
+// import TrustedBrands2 from '../components/TrustedBrands2'
+// import TrustedBrands from '../components/TrustedBrands'
 import Mission from '../components/Mission'
-import Steps from '../components/Steps'
-import Testimonies from '../components/Testimonies';
-import CTA from '../components/CTA';
+// import Steps from '../components/Steps'
+// import Testimonies from '../components/Testimonies';
+import CTA from '../components/cta';
 
 export default function Main() {
   return (
