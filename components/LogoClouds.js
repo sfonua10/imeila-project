@@ -4,7 +4,7 @@ export default function LogoClouds() {
     <div className="bg-blue-200 bg-opacity-25">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
         <div className="lg:grid lg:grid-cols-2 lg:gap-8">
-          <h2 className="max-w-md mx-auto text-3xl font-extrabold text-sourceable-blue text-center lg:max-w-xl lg:text-left">
+          <h2 className="max-w-md mx-auto text-3xl font-extrabold text-gray-900 text-center lg:max-w-xl lg:text-left">
             The world's most innovative companies use Sourceable
           </h2>
           <div className="flow-root self-center mt-8 lg:mt-0">
