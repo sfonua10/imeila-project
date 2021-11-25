@@ -177,7 +177,7 @@ export default function Hero() {
           </div>
           <div className="px-4 sm:px-8 w-full md:pl-0 md:absolute md:right-0 md:w-1/2">
             <img
-              class="sm:pl-0 xl:w-11/12 xl:max-w-3xl"
+              className="sm:pl-0 xl:w-11/12 xl:max-w-3xl"
               src="https://secureservercdn.net/166.62.112.219/5bm.36c.myftpupload.com/wp-content/uploads/2021/11/frontPageMainimg-2048x1149.png"
               alt=""
             />

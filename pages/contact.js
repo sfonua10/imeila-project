@@ -1,3 +1,4 @@
+import Head from "next/head"
 import { useState } from "react";
 import { MailIcon, PhoneIcon } from "@heroicons/react/outline";
 
@@ -51,6 +52,12 @@ export default function Contact() {
 
   return (
     <>
+          <Head>
+        <title>Sourceable</title>
+        <link rel="icon" href="/favicon-16x16.png" sizes="32x32"/>
+        <link rel="icon" href="/favicon-32x32.png" sizes="32x32"/>
+      </Head>
+
       {/* <Navigation /> */}
       <div className="relative bg-white">
         <div className="absolute inset-0">
